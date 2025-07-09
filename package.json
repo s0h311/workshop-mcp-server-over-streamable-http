@@ -5,7 +5,17 @@
     "pnpm": "10"
   },
   "license": "Apache-2.0",
+  "scripts": {
+    "inspect": "@modelcontextprotocol/inspector"
+  },
   "devDependencies": {
+    "@modelcontextprotocol/inspector": "^0.16.0",
+    "@types/express": "^5.0.3",
     "@types/node": "^24.0.10"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.15.0",
+    "express": "^5.1.0",
+    "zod": "^3.25.76"
   }
 }
